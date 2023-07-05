@@ -22,16 +22,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-.girl {
-  position: absolute;
-  transform: translateY(70%);
-  left: 50%;
-}
-.boy {
-  position: absolute;
-  transform: translateY(-90%);
-  left: 10%;
-}
 
 .right-container {
   width: 500px;
@@ -125,6 +115,7 @@ input {
   padding-top: 10px;
 }
 .submit-section button {
+  color: rgb(239, 243, 245);
   padding: 10px 50px;
   border-radius: 30px;
   background-color: transparent;
