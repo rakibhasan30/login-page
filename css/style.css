@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+body {
+  background-image: url(../img/Background\ 2.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: inline;
+  background-color: aqua;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  height: 420px;
+  border-radius: 30px;
+  background: rgba(37, 48, 121, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(8, 10, 41, 0.37);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(52, 157, 255, 0.603);
+  color: aliceblue;
+}
+
+.sign-in {
+  padding: 2rem 0 2rem 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  letter-spacing: -1px;
+  text-shadow: horizontal-shadow vertical-shadow 20% color;
+}
+
+.username-container input,
+.password-container input {
+  border: none;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background-color: transparent;
+  border: 1px solid rgba(52, 157, 255, 0.603);
+  margin: none;
+  border-radius: 25px;
+  width: 100%;
+  height: 3rem;
+  color: aliceblue;
+  text-align: center;
+}
+.username-container {
+  margin-bottom: 1rem;
+}
+.password-container {
+  margin-bottom: 1rem;
+}
+.username-container input::placeholder,
+.password-container input::placeholder {
+  font-size: 1rem;
+  color: rgb(167, 166, 166);
+}
+
+label {
+  padding: 10px;
+  color: rgb(239, 243, 245);
+  font-size: 0.8rem;
+  align-content: center;
+  align-items: center;
+}
+input {
+  font-size: 1rem;
+}
+.submit-section {
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.submit-section button {
+  padding: 10px 50px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid rgba(52, 157, 255, 0.603);
+  float: right;
+}
+.submit-section button a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: aliceblue;
+}
+.submit-section button:hover {
+  box-shadow: inset 0 8px 32px 0 rgba(31, 38, 135, 0.78);
+  backdrop-filter: blur(2px);
+  cursor: pointer;
+}
+.forgot {
+  padding: 50px 50px 15px 50px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+.forgot a {
+  color: aliceblue;
+}
+.forgot a:hover {
+  color: rgba(52, 157, 255, 0.603);
+}
+.copyright {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 0.6rem;
+  text-align: center;
+  color: rgba(214, 214, 214, 0.603);
+}
